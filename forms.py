@@ -4,7 +4,9 @@ from wtforms.validators import (
         DataRequired,
         Email,
         Length,
-        Regexp
+        Regexp,
+        EqualTo,
+        ValidationError
         )
 
 from models import User
